@@ -1,15 +1,12 @@
-package PRAKTIKUM4_Soal2;
+package Soal2;
 class Anjing extends HewanPeliharaan {
-
     private String warnaBulu;
     private String[] kemampuan;
-
-    public Anjing(String ras, String nama, String warnaBulu, String[] kemampuan) {
-        super(ras, nama);
-        this.warnaBulu = warnaBulu;
-        this.kemampuan = kemampuan;
+    public Anjing(String r, String n, String W, String[] k) {
+        super(r, n);
+        this.warnaBulu = W;
+        this.kemampuan = k;
     }
-
     @Override
     public void display() {
         super.display();

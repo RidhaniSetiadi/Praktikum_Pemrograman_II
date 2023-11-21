@@ -1,10 +1,9 @@
-package PRAKTIKUM4_Soal2;
+package Soal2;
 public class HewanPeliharaan {
-
     private String nama, ras;
-    public HewanPeliharaan(String ras, String nama) {
-        this.ras = ras;
-        this.nama = nama;
+    public HewanPeliharaan(String r, String n) {
+        this.ras = r;
+        this.nama = n;
     }
     public void display() {
         System.out.println("Detail Hewan Peliharaan:");

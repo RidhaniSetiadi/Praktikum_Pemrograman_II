@@ -1,8 +1,8 @@
 package Soal1;
 import java.util.Scanner;
-public class Hewan {
+public class Hewanpeliharaan {
     private String nama, Ras;
-    public Hewan(String n, String R) {
+    public Hewanpeliharaan(String n, String R) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nama Hewan Peliharaan : ");
         n = scanner.nextLine();

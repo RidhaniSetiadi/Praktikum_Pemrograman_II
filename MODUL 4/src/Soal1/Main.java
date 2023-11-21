@@ -1,8 +1,9 @@
-package PRAKTIKUM4_Soal1;
+package Soal1;
 public class Main {
     public static void main(String[] args) {
+        String namaHewan = null, rasHewan = null;
         //disini menginisiasi objek
-        Hewan hewan = new Hewan();
+        Hewanpeliharaan hewan = new Hewanpeliharaan(namaHewan, rasHewan);
         // di baris ini memanggil method display
         hewan.display();
     }
